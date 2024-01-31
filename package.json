@@ -23,7 +23,7 @@
 	"scripts": {
 		"start": "CI=false react-scripts --openssl-legacy-provider start",
 		"build": "CI=false react-scripts --openssl-legacy-provider build",
-		"test": "CI=false react-scripts --openssl-legacy-provider test",
+		"test": "react-scripts test --passWithNoTests",
 		"eject": "CI=false react-scripts --openssl-legacy-provider eject"
 	},
 	"eslintConfig": {
