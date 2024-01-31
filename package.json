@@ -21,10 +21,10 @@
 		"socket.io-client": "^4.2.0"
 	},
 	"scripts": {
-		"start": "react-scripts --openssl-legacy-provider start",
-		"build": "react-scripts --openssl-legacy-provider build",
-		"test": "react-scripts --openssl-legacy-provider test",
-		"eject": "react-scripts --openssl-legacy-provider eject"
+		"start": "CI=false react-scripts --openssl-legacy-provider start",
+		"build": "CI=false react-scripts --openssl-legacy-provider build",
+		"test": "CI=false react-scripts --openssl-legacy-provider test",
+		"eject": "CI=false react-scripts --openssl-legacy-provider eject"
 	},
 	"eslintConfig": {
 		"extends": "react-app"
